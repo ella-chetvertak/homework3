@@ -21,7 +21,7 @@ let it_num = prompt('Enter the number', '')
 while (isNaN(it_num)) {
     it_num = prompt('Invalid. You should enter a number', '');
 } 
-for (let i = 0; i < it_num; i+=2) {
+for (let i = 1; i < it_num; i+=2) {
     sum+=i
 }
 console.log(`The sum of odd numbers before ${it_num} is ${sum}`);
